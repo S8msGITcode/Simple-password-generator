@@ -1,15 +1,13 @@
 print("Welcome to The Password Generator by Jack McLean ")
 print(" The Password Generator by Jack McLean Version 1.0 ")
 print("***************************************************")
-print("What is your firstname?")
+print("What is your name?")
 firstname = input()
-print("what is your surname ")
-surname = input()
 
-print("Hello,", firstname,surname)
+print("Hello,", firstname)
 
-print("welcome to password Generator Made by Jack McLean ")
-print("*****************************")
+print("Welcome to the password generator Made by Jack McLean and edited by S8msGITcode")
+print("***************************************************")
 
 import random
 
@@ -23,13 +21,13 @@ chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?01234
 number = input('number of passwords?')
 number = int(number)
 
-print('How long should the password be? Please tell me in numbers')
+print('How long should your password be? Type it out in digits.')
 
-print("*****************************")
+print("***************************************************")
 length = input('password length?')
 length = int(length)
 
-print('\nhere are your passwords:')
+print('Here are your passwords:')
 
 for pwd in range(number):
   password = ''
@@ -37,10 +35,5 @@ for pwd in range(number):
     password += random.choice(chars)
   print(password)
   password =input
-password = input("enter your password : ")
-password =input
-print("Password correct ")
 
-print("Thankyou for using The Password Generator by Jack McLean Version 1.0 ")
-
-
+print("Thank you for using The Password Generator by Jack McLean Version 1.1 patch 1(Edited by S8msGITCode) ")
